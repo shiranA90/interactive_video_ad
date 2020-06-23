@@ -1,0 +1,23 @@
+.video-container {
+    width: 100%;
+    padding-top: 56.25%;
+    height: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    left: calc(40% - 75px);
+    top: 60%;
+    z-index: 1;
+}
